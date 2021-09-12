@@ -1,0 +1,25 @@
+{
+   "name": "git-practice",
+   "version": "1.0.0",
+   "description": "Place to practice commit",
+   "main": "commitlint.config.js",
+   "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+   },
+   "repository": {
+      "type": "git",
+      "url": "git+https://github.com/nguyentran-se/git-practice.git"
+   },
+   "keywords": [],
+   "author": "",
+   "license": "ISC",
+   "bugs": {
+      "url": "https://github.com/nguyentran-se/git-practice/issues"
+   },
+   "homepage": "https://github.com/nguyentran-se/git-practice#readme",
+   "devDependencies": {
+      "@commitlint/cli": "^13.1.0",
+      "@commitlint/config-conventional": "^13.1.0",
+      "husky": "^7.0.2"
+   }
+}
