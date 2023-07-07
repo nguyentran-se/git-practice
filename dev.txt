@@ -1,0 +1,23 @@
+# Git flow
+- [feat/...] git checkout dev
+- [dev] git pull
+- [dev] `git checkout -b feat/LMSC11`
+- `git checkout -b feat/LMSC-11`
+- git commit -m 'feat: something'
+  - git push
+- git commit --amend --no-edit 
+  - git push -f
+
+# Squash commits
+- gộp commit. ví dụ 3 -> 1
+- `git rebase -i <commit_hash>`
+
+# Resolve conflicts
+- git pull origin dev --rebase
+- This is a conflict
+
+# git reset
+- git reset: default soft
+- git reset --hard HEAD^
+
+# git stash
