@@ -1,0 +1,12 @@
+# Git flow
+- [dev] `git checkout -b feat/LMSC11`
+- `git checkout -b feat/LMSC-11` -> create new branch
+- git commit --amend --no-edit 
+  - git push -f
+
+# Squash commits
+- gộp commit. ví dụ 3 -> 1
+- `git rebase -i <commit_hash>`
+
+# Resolve conflicts
+- This is a conflict
